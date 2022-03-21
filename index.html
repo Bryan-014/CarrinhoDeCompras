@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Carrinho de Compras
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                <div class="m-t-10 m-l-5">                    
+                    <span>Produto: </span>
+                    <input class="m-l-23" type="text" id="product">
+                </div>
+                <div class="m-t-10 m-l-5 m-b-5">                    
+                    <span>Quantidade: </span>
+                    <input type="number" id="qtd">
+                </div>
+                <input type="button" value="Adicionar ao Carrinho" class="m-b-5 m-l-23" onclick="addProduct()"></input>
+                <table class="m-l-5 m-b-5">
+                    <thead id="head"></thead>
+                    <tbody id="table"></tbody> 
+                </table>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
