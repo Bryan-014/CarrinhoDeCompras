@@ -43,6 +43,9 @@ th,td,tr,table {
 .m-l-23 {
     margin-left: 23px;
 }
+.m-l-28 {
+    margin-left: 28px;
+}
 .m-b-5 {
     margin-bottom: 5px;
 }.m-t-10 {
@@ -57,6 +60,9 @@ th,td,tr,table {
 .m-b-5 {
     margin-bottom: 5px;
 }
-.w-76 {
+.w-74 {
     width: 74.7%;
+}
+.w-90 {
+    width: 84%;
 }

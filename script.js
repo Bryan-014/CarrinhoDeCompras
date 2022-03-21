@@ -2,7 +2,7 @@ var litleCarr = [];
 
 function addProduct() {
     if (litleCarr.length == 0) {
-        document.getElementById('head').innerHTML = `<tr><th>Quantidade</th><th class="w-76">Produto</th><tr>`;
+        document.getElementById('head').innerHTML = `<tr><th>Quantidade</th><th class="w-74">Produto</th><tr>`;
     }
 
     if (document.getElementById('product').value == '') {
@@ -19,7 +19,7 @@ function addProduct() {
         qtd: document.getElementById('qtd').value
     }
     let {description, qtd} = productInfo;
-    
+
     litleCarr.push(productInfo);
 
     document.getElementById('table').innerHTML += `<tr><td>${qtd}</td><td>${description}</td></tr>`;
